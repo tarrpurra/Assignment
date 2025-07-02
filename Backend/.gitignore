@@ -1,0 +1,22 @@
+# Ignore build output directories
+/dist/
+/build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies
+node_modules/
+packages/
