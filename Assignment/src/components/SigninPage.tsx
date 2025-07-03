@@ -12,7 +12,7 @@ export default function SignInPage({ onLogin }: SignInPageProps) {
     e.preventDefault();
     setMessage("");
     try {
-      const res = await fetch("http://localhost:5000/api/signin", {
+      const res = await fetch("https://assignment-1-zxu9.onrender.com/api/signin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
